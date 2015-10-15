@@ -9,3 +9,91 @@ html, body {
 .pad-section img {
 	width: 100%;
 }
+
+.text-vcenter { /*Text Vertical Center */
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.text-vcenter h1 {	
+	font-size: 4.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+#sec1 {
+	background: url(../img/home.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#sec2 {
+
+}
+
+#sec3 {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#sec3 .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#sec4 {
+  background: url(../images/estate.jpg) no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sec4 .panel {
+  opacity: 0.85;
+}
+
+#sec5 {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#sec5 .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+ 
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
